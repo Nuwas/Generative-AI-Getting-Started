@@ -1,4 +1,47 @@
-Few important AI related docs.
+1. <b>Artificial Intelligence (AI)</b>
+
+    Definition: AI is the broad field of creating machines that can perform tasks requiring human intelligence (e.g., reasoning, problem-solving, learning, and decision-making).
+   
+    Examples: Chatbots, recommendation systems (Netflix, YouTube), self-driving cars.
+
+2. <b>Machine Learning (ML) (Subset of AI)</b>
+
+    Definition: ML enables computers to learn from data and improve over time without explicit programming.
+   
+    Types:
+        Supervised Learning: Learns from labeled data (e.g., spam detection).
+        Unsupervised Learning: Identifies patterns in unlabeled data (e.g., customer segmentation).
+        Reinforcement Learning: Learns by trial and error with rewards (e.g., AlphaGo, robotics).
+
+3. <b>Deep Learning (DL) (Subset of ML)</b>
+
+    Definition: Uses neural networks with multiple layers (deep networks) to recognize patterns in data.
+   
+    Why Important?: Powers complex AI tasks like image recognition (Face ID), speech recognition (Alexa, Siri), and autonomous driving.
+   
+    Examples:
+        CNNs (Convolutional Neural Networks) → Used in image processing.
+        RNNs/LSTMs (Recurrent Neural Networks) → Used in language modeling.
+
+4. <b>Generative AI (Subset of DL)</b>
+
+    Definition: AI that generates new content (text, images, audio, video) based on existing data.
+   
+    Examples:
+        ChatGPT (text generation)
+        DALL·E, Midjourney (image generation)
+        MusicLM (AI-generated music)
+   
+    Key Techniques:
+        Transformers (LLMs) → Used for text-based AI (e.g., GPT, BERT).
+        GANs (Generative Adversarial Networks) → Used for deepfake images/videos.
+
+    <b>In short</b>
+    * AI is the big umbrella.
+    * ML is a way for AI to learn.
+    * DL is a more advanced ML method using neural networks.
+    * Generative AI creates new content using DL.
+
 
 <b>Core AI Constructs</b>
 
@@ -50,21 +93,17 @@ Analogy: A chatbot answers questions, but an AI agent can act on them (like a di
 <b>Prompt Engineering</b> is the process of designing effective inputs (prompts) for LLMs to get the best responses.
 * A well-structured prompt improves accuracy & relevance.
 * Examples:
-  \n
-    a) Zero-shot prompting: Asking the model without examples.\n
-    b) Few-shot prompting: Providing examples to guide the model.\n
-    c) Chain-of-Thought (CoT): Asking the model to explain its reasoning step-by-step.\n
-  
+    * Zero-shot prompting: Asking the model without examples.
+    * Few-shot prompting: Providing examples to guide the model.
+    * Chain-of-Thought (CoT): Asking the model to explain its reasoning step-by-step.
 * Analogy: Teaching an AI is like training a dog 🐶—clear, structured commands work best!
 
 <b>Multi-Modal AI (Text, Image, Audio, Video)</b> can process more than just text (e.g., images, speech, video).
 * Expands AI beyond chatbots to real-world applications like image recognition, voice assistants, and video generation.
 * Examples:
-  
-    a) Text-to-Image: DALL·E, MidJourney
-    b) Text-to-Speech (TTS): ElevenLabs, Google WaveNet
-    c) Speech-to-Text (STT): Whisper (OpenAI), Deepgram
-  
+  * Text-to-Image: DALL·E, MidJourney
+  * Text-to-Speech (TTS): ElevenLabs, Google WaveNet
+  * Speech-to-Text (STT): Whisper (OpenAI), Deepgram 
 * Analogy: Think of Jarvis from Iron Man—he understands text, voice, and images together.
 
 <b>Fine-Tuning</b> is the process of training an LLM on custom data to specialize it.
