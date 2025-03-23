@@ -15,7 +15,7 @@ RAG + Langchain Python Project: Easy AI/Chat For Your Docs
   Source/Load/Tranform/Embed/Store/Retrieve
 
   <b>Embeddings</b> are vector representation of text that capture their meaning.
-  This is list of <b>numbers</b>. Its sort of <b>coordinates in multi-dimensional space.
+  This is list of <b>numbers</b>. Its sort of <b>coordinates</b> in multi-dimensional space.
   If two pieces of text are closely related to each other, that means, then those coordinates will also be close together.
 
   Then distance between these vectors can be calculated easily using cosine similarity or euclidean distance.
